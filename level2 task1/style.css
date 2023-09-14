@@ -1,0 +1,57 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 80px;
+    width: 400px;
+    background-color: #bc5fd3;
+    padding: 20px;
+    border-radius: 5vw;
+  }
+  
+  .child {
+    border: 1px solid #000;
+    border-radius: 5vw;
+    border-radius: 5vh;
+    margin: .3vh;
+    background-color: #6f1581;
+  }
+
+  .output {
+    grid-column: 1/5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  
+  .zero {
+    grid-column: 1/3;
+  }
+  
+  div, button {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 5vh;
+    color: #fff;
+  }
+  
+  .orange {
+    background-color: #FF9500;
+  }
+  
+  .dark-gray {
+    background-color: #505050;
+  }
+  
+  .output {
+    background-color: #1C1C1C;
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+  }
+  
+  .zero {
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    padding-left: 40px;
+  }
